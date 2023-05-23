@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+.submit-page {
+  width: 60%;
+  background: url(/images/bg-pattern-desktop.svg);
+  background-position: top left;
+  padding-left: 10.25rem;
+  padding-top: 2rem;
+}
+.submit-page .title {
+  padding-top: 5rem;
+}
+.title ul li {
+  padding-bottom: 1.2rem;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+}
+.title ul li:nth-child(1) {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+.title ul li:nth-child(3) {
+  padding-bottom: 2.5rem;
+}
+.submit-page .paragraph {
+  width: 420px;
+  color: hsl(0, 36%, 70%);
+  margin-bottom: 2rem;
+}
+.paragraph p {
+  line-height: 2rem;
+}
+
+.e-mail-div {
+  position: relative;
+}
+#email {
+  line-height: 43px;
+  width: 420px;
+  border-radius: 1rem;
+}
+#check-btn {
+  position: absolute;
+  left: 360px;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: hsl(0, 93%, 68%);
+  border: none;
+  opacity: 1;
+}
+.e-mail-div button i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+#text {
+  margin-top: 12px;
+  margin-left: 20px;
+  font-weight: 300;
+  color: hsl(0, 93%, 68%);
+}
+
+#warning {
+  position: absolute;
+  left: 320px;
+  top: 0.85rem;
+  display: none;
+}
+
+#warning i {
+  font-size: 1.4rem;
+  color: hsl(0, 93%, 68%);
+}
+
+.img-page img{
+  max-width: 100%;
+    height: auto;
+}
